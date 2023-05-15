@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title> <?= $title ?> - Honey - Beekeeping</title>
+    <title><?= $title ?> - Honey</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="<?= base_url()?>/assets/img/favicon.ico" rel="icon">
+    <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,84 +41,55 @@
             </div>
         </div>
         <!-- Spinner End -->
-
-
         <!-- Navbar & Hero Start -->
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Honey </h1>
-                    <!-- <img src="<?= base_url()?>/assets/img/logo.png" alt="Logo"> -->
+                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Honey</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto py-0 pe-4">
+                <div class="navbar-nav ms-auto py-0 pe-4">
                         <a href="<?= base_url('')?>" class="nav-item nav-link active">Home</a>
-\                        <a href="<?= base_url('services')?>" class="nav-item nav-link">Service</a>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Honey</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="<?= base_url('honey')?>" class="dropdown-item"> Raw Honeys</a>
-                                <a href="<?= base_url('honey')?>" class="dropdown-item">Honey Gift Boxes </a>
-                                <a href="<?= base_url('honey')?>" class="dropdown-item">Honey Favors</a>
-                                <a href="<?= base_url('honey')?>" class="dropdown-item">Honey Candles</a>
-                                <a href="<?= base_url('honey')?>" class="dropdown-item">Natural Honey</a>
-                                <a href="<?= base_url('honey')?>" class="dropdown-item">Organic Honey</a>
-                                <a href="<?= base_url('honey')?>" class="dropdown-item">Free Honey Recipes</a>
-                               
-                            </div>
-                        </div>
+                        <a href="<?= base_url('about')?>" class="nav-item nav-link">About</a>
                         <a href="<?= base_url('bees')?>" class="nav-item nav-link">Bees</a>
-
+                        <a href="<?= base_url('honey')?>" class="nav-item nav-link">Honey</a>
+                        <a href="<?= base_url('services')?>" class="nav-item nav-link">Service</a>
+                        <a href="#" class="nav-item nav-link">Menu</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Honey Favors</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-0">
-                                <a href="<?= base_url('honey')?>" class="dropdown-item"> Honey Jar Favors</a>
-                                <a href="<?= base_url('honey')?>" class="dropdown-item">Request a quote </a>
-                                <a href="<?= base_url('honey')?>" class="dropdown-item">Honey Favors DIY Decorating </a>
-                                <a href="<?= base_url('honey')?>" class="dropdown-item">Honey Wedding Favor photo</a>
-                                <a href="<?= base_url('honey')?>" class="dropdown-item">The Origin of honeymoon</a>
-                               
-                            </div>
-                        </div>
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="<?= base_url('about')?>" class="dropdown-item">Beekeepers our story</a>
-                                <a href="<?= base_url('honey')?>" class="dropdown-item">About our honey</a>
-                                <a href="<?= base_url('honey')?>" class="dropdown-item">Honey testimonials</a>
-                                <a href="<?= base_url('honey')?>" class="dropdown-item">Honey Wedding Favor photo</a>
-                                <a href="<?= base_url('honey')?>" class="dropdown-item">The Origin of honeymoon</a>
-                               
+                                <a href="<?= base_url('booking')?>" class="dropdown-item">Booking</a>
+                                <a href="<?= base_url('team')?>" class="dropdown-item">Our Team</a>
+                                <a href="<?= base_url('testimonial')?>" class="dropdown-item">Testimonial</a>
                             </div>
                         </div>
                         <a href="<?= base_url('contact')?>" class="nav-item nav-link">Contact</a>
                     </div>
+                    <a href="" class="btn btn-primary py-2 px-4">Book A Table</a>
                 </div>
             </nav>
 
-            <div class="container-xxl py-5  hero-header mb-5">
-                <div class="container my-5 py-5">
-                    <div class="row align-items-center g-5">
-                        <div class="col-lg-6 text-center text-lg-start">
-                            <h1 class="display-3 text-white animated slideInLeft">Orginal<br>Honeycomb</h1>
-                            <p class="text-white animated slideInLeft mb-4 pb-2">Best Organic and Fresh Honey</p>
-                            <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Book A Table</a>
-                        </div>
-                        <div class="col-lg-6 text-center text-lg-end overflow-hidden">
-                            <img class="img-fluid" src="<?= base_url()?>/assets/img/hhh.png" alt="">
-                        </div>
-                    </div>
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown"> <?= $title ?></h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase">
+                            <li class="breadcrumb-item"><a href="<?= base_url()?>">Home</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">About</li>
+                        </ol>
+                    </nav>
                 </div>
             </div>
         </div>
         <!-- Navbar & Hero End -->
 
-            <!--  CONTENT  -->
 
-            <?= $content ?>
+       <?= $content ?>
+
         <!-- Footer Start -->
         <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container py-5">
